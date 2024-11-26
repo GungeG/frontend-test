@@ -7,6 +7,8 @@ module.exports = {
   ],
   theme: {
     extend: {
+      width: {
+        '128': '478.12px', },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
