@@ -3,6 +3,7 @@ import Adtralza from "./components/Adtralza";
 import Package from "./components/Package";
 import Stats from "./components/Stats";
 import Symptoms from "./components/Symptoms";
+import ClinicalTools from "./components/ClinicalTools";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Package />
       <Stats />
       <Symptoms />
+      <ClinicalTools />
     </div>
   );
 }

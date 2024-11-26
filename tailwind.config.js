@@ -9,7 +9,11 @@ module.exports = {
     extend: {
       width: {
         'w-header': '1980px',
-        '128': '478.12px', },
+        '128': '478.12px',
+        'card': '528px',},
+        height: {
+          'card': '563.65px',
+        },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

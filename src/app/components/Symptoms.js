@@ -3,10 +3,10 @@ import Image from "next/image";
 const Symptoms = () => {
   return (
     <div className="bg-gray-200 py-5">
-      <p className="font-sans mb-32 italic font-thin text-3xl text-blue-400 ml-24">
+      <h2 className="font-sans mb-32 italic font-thin text-3xl text-blue-400 ml-24">
         Adtralza® neutralizes IL-13, a key driver of Atopic Dermatitis signs and
         symptoms.
-      </p>
+      </h2>
       <p className="text-base font-sans italic font-thin text-black col-span-2 ml-24 mb-8">
           By specifically targeting the IL-13 cytokine, Adtralza® inhibits the
           interaction with type II receptors and prevents IL-13-induced
