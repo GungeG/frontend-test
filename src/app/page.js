@@ -2,6 +2,7 @@ import Image from "next/image";
 import Adtralza from "./components/Adtralza";
 import Package from "./components/Package";
 import Stats from "./components/Stats";
+import Symptoms from "./components/Symptoms";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Adtralza />
       <Package />
       <Stats />
+      <Symptoms />
     </div>
   );
 }

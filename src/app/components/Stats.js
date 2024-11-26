@@ -16,7 +16,7 @@ const Stats = () => {
           clinical trials 10, providing sustained improvements in the burden of
           disease(1,2, 1, 8*†‡).{/* {" "} */}
         </p>
-        <p className=" text-pink-600 text-base font-sans italic">See efficacy and trial data</p>
+        <p className=" text-co1 text-base font-sans italic mt-2">See efficacy and trial data</p>
       </div>
       <div className="m-auto">
       <Image src={"/static/images/Heart.png"}
@@ -30,7 +30,7 @@ const Stats = () => {
           early symptom relief and sustained improvements in burden of disease
           from week 16 to 32(12,13).
         </p>
-        <p className=" text-pink-600 text-base font-sans italic">Learn more about quality of life improvements</p>
+        <p className=" text-co1 text-base font-sans italic mt-2">Learn more about quality of life improvements</p>
       </div>
       <div className="">
       <Image src={"/static/images/Shield.png"}
@@ -38,7 +38,7 @@ const Stats = () => {
         height={181.67}
         alt=""
         className="m-auto"/> <p className="font-sans font-thin italic text-xl text-blue-400">Good safety profile</p>
-        <p className="mt-28 text-pink-600 text-base font-sans italic">See safety profile </p>
+        <p className="mt-28 text-co1 text-base font-sans italic">See safety profile </p>
       </div>
     </div>
   );
