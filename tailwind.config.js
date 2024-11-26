@@ -8,11 +8,14 @@ module.exports = {
   theme: {
     extend: {
       width: {
+        'w-header': '1980px',
         '128': '478.12px', },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
         co1: "#C017A2",
+        h: "#00609C",
+        h123: "#E6E7E8"
       },
     },
   },

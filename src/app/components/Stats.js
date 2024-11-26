@@ -14,7 +14,7 @@ const Stats = () => {
         <p className="text-black font-sans italic text-base w-72">
           9 out of 10 respondents experienced sustained disease control in
           clinical trials 10, providing sustained improvements in the burden of
-          disease(1,2, 1, 8*†‡).{/* {" "} */}
+          disease(1,2, 1, 8*†‡).
         </p>
         <p className=" text-co1 text-base font-sans italic mt-2">See efficacy and trial data</p>
       </div>

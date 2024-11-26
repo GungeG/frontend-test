@@ -2,7 +2,14 @@ import Image from "next/image";
 
 const Adtralza = () => {
   return (
-    <div className="Adtralza">
+    <div className="Adtralza relative">
+      <Image
+        src={"/static/images/Mask-Group.png"}
+        width={1920}
+        height={1080}
+        alt="Mask-Group"
+        className="w-full h-full object-cover"
+      />
       <div className="ml-32 absolute top-8">
         <Image
           src={"/static/images/Adtralza-global.png"}
@@ -17,12 +24,6 @@ const Adtralza = () => {
           systemic therapy.
         </p>
       </div>
-      <Image
-        src={"/static/images/Mask-Group.png"}
-        width={1442}
-        height={405}
-        alt="Mask-Group"
-      />
     </div>
   );
 };
