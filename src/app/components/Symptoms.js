@@ -12,7 +12,7 @@ const Symptoms = () => {
           interaction with type II receptors and prevents IL-13-induced
           inflammatory responses in the skin(1,2).{" "}
         </p>
-      <div className=" grid grid-cols-2">
+      <div className=" sm:grid grid-cols-2">
         <div className="ml-24">
  
         <p className="text-base font-sans italic font-thin text-black mb-8">

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Package = () => {
   return (
-    <div className="grid grid-cols-2 py-8 bg-gray-200">
+    <div className="sm:grid grid-cols-2 py-8 bg-gray-200">
         <div className="m-auto">
       <Image
         src={"/static/images/Adtralza-package.png"}
