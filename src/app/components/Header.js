@@ -43,7 +43,7 @@ const Header = () => {
           <input
             type="text"
             placeholder="Search"
-            className="border rounded-lg px-4 py-2 text-sm lg:mr-96"
+            className="border rounded-lg px-4 py-2 text-sm lg:mr-48"
           />
           <button
             className="lg:hidden mr-4 text-black font-bold"
