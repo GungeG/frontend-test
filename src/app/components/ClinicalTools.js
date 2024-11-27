@@ -2,15 +2,14 @@ import Image from "next/image";
 
 const ClinicalTools = () => {
   return (
-    <div className="px-4 py-12">
+    <div className="py-12 w-4/5 m-auto">
       <h2 className="font-sans italic font-thin text-3xl text-blue-400 ml-32">
         Clinical tools - at a glance
       </h2>
       <div className="flex flex-wrap justify-center gap-8 mt-6">
-        {/* Card 1 */}
         <div className="bg-gray-200 shadow-md border rounded-lg w-96">
           <Image
-            src={"/static/images/Doctor.png"} // Replace with the actual path to your image
+            src={"/static/images/Doctor.png"} 
             alt="Nurse"
             width={520}
             height={200}
@@ -33,10 +32,9 @@ const ClinicalTools = () => {
           </div>
         </div>
 
-        {/* Card 2 */}
         <div className="bg-gray-200 shadow-md border rounded-lg w-96">
           <Image
-            src={"/static/images/Thigh.png"} // Replace with the actual path to your image
+            src={"/static/images/Thigh.png"} 
             alt="Injection"
             width={520}
             height={300}

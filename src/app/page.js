@@ -4,6 +4,7 @@ import Package from "./components/Package";
 import Stats from "./components/Stats";
 import Symptoms from "./components/Symptoms";
 import ClinicalTools from "./components/ClinicalTools";
+import KOLVideos from "./components/KOLVideos";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Stats />
       <Symptoms />
       <ClinicalTools />
+      <KOLVideos />
     </div>
   );
 }
