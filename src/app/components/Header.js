@@ -5,26 +5,24 @@ import Image from 'next/image';
 import { useState } from 'react';
 
 const Header = () => {
-  const [activeMenu, setActiveMenu] = useState(null); // State to track the active menu
-  const [showSubMenu, setShowSubMenu] = useState(false); // State to show/hide sub section menu
-  const [activeButton, setActiveButton] = useState(null); // State to track the active button
-  const [activeNavButton, setActiveNavButton] = useState(null); // State to track the active nav button
-  const [showDropdown, setShowDropdown] = useState(false); // State to show/hide dropdown menu
+  const [activeMenu, setActiveMenu] = useState(null); 
+  const [showSubMenu, setShowSubMenu] = useState(false); 
+  const [activeButton, setActiveButton] = useState(null); 
+  const [activeNavButton, setActiveNavButton] = useState(null);
+  const [showDropdown, setShowDropdown] = useState(false); 
 
-  // Handler for showing section menu
+
   const handleNavigationClick = (menu) => {
     setActiveMenu(menu);
     setActiveNavButton(menu);
-    setShowSubMenu(false); // Ensure sub-section menu is hidden initially
+    setShowSubMenu(false); 
   };
 
-  // Handler for showing the sub-section menu
   const handleSubMenuClick = (buttonName) => {
     setActiveButton(buttonName);
     setShowSubMenu(true);
   };
 
-  // Handler for toggling dropdown menu
   const toggleDropdown = () => {
     setShowDropdown(!showDropdown);
   };
@@ -32,7 +30,6 @@ const Header = () => {
   return (
     <header className="">
       <div className="w-full">
-        {/* Logo Section */}
         <div className="flex flex-wrap items-center justify-between py-4">
           <div className="text-lg font-bold ml-32">
             <Image
